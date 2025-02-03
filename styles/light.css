@@ -16,7 +16,7 @@
   --bg-color: #FFF1F7;
   --text-color: #353430;
   --opaque-outline: #32312D66;
-  --bg-image: url(../images/cover-image-light.png)
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -35,7 +35,7 @@
     --bg-color: #FFF1F7;
     --text-color: #353430;
     --opaque-outline: #32312D66;
-    --bg-image: url(../images/cover-image-light.png)
+    --bg-image: url(../images/cover-image-light.png);
   }
 
   .decoration-element {
