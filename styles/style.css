@@ -6,6 +6,7 @@
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--bg-color);
 }
@@ -116,6 +117,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--subtitle-text-color);
+  font-size: var(--section-title-size);
   margin-block-end: 10px;
   line-height: 23.4px;
 }
@@ -135,14 +137,15 @@
 .section__title {
   color: var(--section-title-color);
   font-size: var(--section-title-size);
-  padding-block-end: 10px;
+  margin-block-end: 10px;
   line-height: 23.4px;
 }
 
 .section__text {
   color: var(--text-color);
+  font-size: var(--section-title-size);
   line-height: 23.4px;
-  padding-block-end: 10px;
+  margin-block-end: 10px;
 }
 
 .section__link {
