@@ -122,6 +122,10 @@
   line-height: 23.4px;
 }
 
+.title-decor__margin {
+  margin-block-end: 20px;
+}
+
 .header__subtitle {
   font-size: var(--section-title-size);
 }
@@ -137,15 +141,16 @@
 .section__title {
   color: var(--section-title-color);
   font-size: var(--section-title-size);
-  margin-block-end: 10px;
+  margin-block-end: 20px;
   line-height: 23.4px;
+  text-wrap: wrap;
 }
 
 .section__text {
   color: var(--text-color);
   font-size: var(--section-title-size);
   line-height: 23.4px;
-  margin-block-end: 10px;
+  margin-block-end: 20px;
 }
 
 .section__link {
@@ -354,6 +359,7 @@
   .section__span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
     grid-column: span 3;
     gap: 20px;
   }
