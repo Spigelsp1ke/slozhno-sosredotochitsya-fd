@@ -153,6 +153,10 @@
   margin-block-end: 20px;
 }
 
+.last-text {
+  margin-block-end: 0;
+}
+
 .section__link {
   text-decoration: none;
   text-shadow: 2px 2px var(--accent-color);
