@@ -177,7 +177,6 @@
 
 .section__gallery {
   display: grid;
-  gap: 10px;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
   margin-block-end: 40px;
@@ -250,6 +249,7 @@
 
   .header__title {
     grid-column: span 2;
+    margin-inline-start: -20px;
   }
 
   .title {
@@ -293,8 +293,8 @@
     padding-inline-end: var(--page-padding);
   }
 
-  .gallery .title-decor {
-    grid-column: span 2;
+  .section__gallery .title-decor {
+    margin-block-end: 20px;
   }
 
   .gallery__content {
