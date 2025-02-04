@@ -11,7 +11,7 @@
   --title-color: #DB00FF;
   --opaque-outline: #FF007066;
   --bg-image: url(../images/cover-image-dark.png);
-  --body-font: IBM Plex Mono;
+  --body-font: IBM Plex Mono, Arial, sans-serif;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --section-title-size: 18px;
   --page-padding: 10px;

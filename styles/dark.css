@@ -15,5 +15,6 @@
   --section-title-color: #FF0070;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
+  --opaque-outline: #FF007066;
   --bg-image: url(../images/cover-image-dark.png);
 }

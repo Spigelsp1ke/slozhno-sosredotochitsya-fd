@@ -19,12 +19,11 @@
   --bg-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .page {
+.theme-light .page .decoration-element {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  .decoration-element {
     display: none;
   }
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -38,7 +37,7 @@
     --bg-image: url(../images/cover-image-light.png);
   }
 
-  .decoration-element {
+  .theme-auto .decoration-element {
     display: none;
   }
 }
