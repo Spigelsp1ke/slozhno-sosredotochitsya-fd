@@ -79,8 +79,7 @@
   color: var(--section-title-color);
   background-color: transparent;
   border: none;
-  size: 18px;
-  font-weight: 400;
+  font-size: var(--section-title-size);
   line-height: 18px;
   text-transform: lowercase;
   padding: 2px 13px 4px;
@@ -119,8 +118,11 @@
   background-color: var(--accent-color);
   color: var(--subtitle-text-color);
   font-size: var(--section-title-size);
-  margin-block-end: 10px;
   line-height: 23.4px;
+}
+
+h4 {
+  font-weight: 400;
 }
 
 .title-decor__margin {
@@ -157,6 +159,12 @@
 .section__content {
   display: grid;
   gap: 20px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .section__link {
